@@ -15,6 +15,10 @@ div {
     margin: auto;
 }
 
+.app{
+    text-align: center;
+}
+
 ul {
     column-width: 110px;
     list-style: none;
