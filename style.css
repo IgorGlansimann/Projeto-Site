@@ -8,7 +8,7 @@ h1 {
     color: red;
 }
 div {
-    background-image: linear-gradient(to right, black, #777777);
+    background-image: radial-gradient(circle, black, #777777);
     border-radius: 10px;
     width: 700px;
     padding: 10px;
