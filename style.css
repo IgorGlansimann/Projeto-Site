@@ -2,13 +2,13 @@ body {
     text-align: center;
     font-size: 20px;
     /*background-color: #3c3fe7;*/
-    background-image: linear-gradient(to right, #8366FE  20px, #4BAAFE, #3BF3FB);
+    background-image: radial-gradient(circle, #8366FE  20px, #4BAAFE, #3BF3FB);
 }
 h1 {
     color: red;
 }
 div {
-    background-image: radial-gradient(circle, black, #777777);
+    background-image: linear-gradient(to right, black, #777777);
     border-radius: 10px;
     width: 700px;
     padding: 10px;
