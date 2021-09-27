@@ -1,13 +1,18 @@
 body {
-    text-align: justify;
+    
     font-size: 20px;
-    /*background-color: #3c3fe7;*/
+    /*background-color: #000000;*/
     background-image: radial-gradient(circle, #8366FE  20px, #4BAAFE, #3BF3FB);
 }
 h1 {
-    color: red;
+    text-align: center;
+    color: rgb(99, 221, 51);
 }
-div {
+h2 {
+    text-align: center;
+}
+
+div#links {
     background-image: linear-gradient(to right, black, #777777);
     border-radius: 10px;
     width: 700px;
@@ -15,11 +20,8 @@ div {
     margin: auto;
 }
 
-.app{
-    text-align: center;
-}
-
 ul {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     column-width: 110px;
     list-style: none;
 }
@@ -34,4 +36,19 @@ a {
 a:hover {
     color: red;
     text-decoration: underline;
+}
+
+iframe {
+    padding: 50px 0px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+div#notas{
+    font-family:'Courier New', Courier, monospace ;
+    border-radius: 5px;
+    padding: 5% 0% 5% 23%
+
+}
+textarea:focus{
+    background-color: #E0E0F8;
 }
